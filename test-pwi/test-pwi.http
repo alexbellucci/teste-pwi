@@ -1,0 +1,6 @@
+@test_pwi_HostAddress = http://localhost:5038
+
+GET {{test_pwi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
